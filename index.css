@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100vh;
+    background: url(image\ folder/lavenda.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    color: white;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.clock{
+    display: flex;
+    color: white;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: slateblue;
+    width: 100px;
+    height: 80px;
+    font-size: 50px;
+    opacity: 0.8;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+}
+
+.clock .date{
+    height: 30px;
+    font-size: 20px;
+    opacity: 0.8;
+    background: darkblue;
+    letter-spacing: 2px;
+    
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    opacity: 0.8;
+    background: darkblue;
+    letter-spacing: 2px;
+}
+.clock .ampm{
+    background: green;
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+}
